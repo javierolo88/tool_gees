@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    margin:0
+}
 /* Chrome, Safari, Edge, Opera */
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
@@ -11,6 +15,30 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-.logo{
-    width: 90%;
+.ambi{
+    position:relative;
+    left: 85px;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.eco{
+    position:relative;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.soci{
+    position:relative;
+    left: 54px;
+    top: -131px;
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.letra {
+    color:black;
 }
