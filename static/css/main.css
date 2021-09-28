@@ -42,3 +42,28 @@ input[type="number"] {
 .letra {
     color:black;
 }
+
+
+.hola{
+    margin-left: 80px;
+}
+
+btn_am{
+    background: transparent;
+}
+
+.move_ambi{
+    top: 410px;
+    left:-350px;
+}
+
+.eco_ambi{
+    top: 410px;
+    left:490px;
+}
+
+.cal{
+    border: 2px red solid;
+    width: 350px;
+}
+
