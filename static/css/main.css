@@ -45,7 +45,7 @@ input[type="number"] {
 
 
 .hola{
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 btn_am{
@@ -56,6 +56,10 @@ btn_am{
     top: 410px;
     left:-320px;
 }
+.sub_title{
+    border: 1px black dotted;
+    padding: 8px;
+}
 
 .eco_ambi{
     top: 410px;
@@ -63,7 +67,11 @@ btn_am{
 }
 
 .cal{
-    border: 2px red solid;
     width: 350px;
+}
+
+.socil_ambi{
+    top: 600px;
+    left:140px;
 }
 
