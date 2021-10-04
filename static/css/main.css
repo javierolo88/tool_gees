@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    /* outline:2px solid crimson; */
+    outline:2px solid crimson;
 }
 
 .main{
@@ -13,6 +13,21 @@
     width:80px;
     height:100vh;
     background: gray;
+    text-align: center;
+}
+
+.name{
+    position: relative;
+    top: 25%;
+}
+
+.name_2{
+    position: relative;
+    top: 17%;
+}
+
+.name h1, H6{
+    color: #fff;
 }
 
 .container{
@@ -54,6 +69,21 @@
 }
 
 @media screen and (min-width:1400px) {
+    
+    .name{
+        position: relative;
+        top: 35%;
+    }
+
+    .name_2{
+        position: relative;
+        top: 25%;
+    }
+
+    .name_2 h6{
+        font-size: 20px;
+    }
+    
     .container{
         width:1200px;
         height: 800px;
