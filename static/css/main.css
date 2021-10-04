@@ -101,7 +101,6 @@
 
 .tooltips:hover {
 	position: relative;
-	text-decoration: underline;
 }
 
 .tooltips:hover .tooltip-box{
