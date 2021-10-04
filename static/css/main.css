@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    outline:2px solid crimson;
+    /* outline:2px solid crimson; */
 }
 
 .main{
@@ -38,10 +38,36 @@
     flex-wrap: wrap;
 }
 
+.ambi_tooltip{
+    position: relative;
+    top:-70px;
+    left: 150px;
+    font-size:20px;
+    color: whitesmoke;
+    /* visibility: hidden; */
+}
+
+.eco_tooltip{
+    position: relative;
+    top:-70px;
+    left: 105px;
+    font-size:20px;
+    color: whitesmoke;
+}
+
+.soci_tooltip{
+    position: relative;
+    top:-70px;
+    left: 140px;
+    font-size:20px;
+    color: whitesmoke;
+}
+
 .images{
     width:50%;
     height:50%;
     margin-top: 8%;
+    cursor: pointer;
 }
 
 .images img{
@@ -68,6 +94,26 @@
     margin: 0 auto;
 }
 
+.tooltips{
+	font-weight: normal;
+	position: relative;
+}
+
+.tooltips:hover {
+	position: relative;
+	text-decoration: underline;
+}
+
+.tooltips:hover .tooltip-box{
+	display: inline-block;
+}
+
+.tooltip-box{
+	display: none;
+	z-index: 500;
+    transition: transform 10s;
+}
+
 @media screen and (min-width:1400px) {
     
     .name{
@@ -87,6 +133,28 @@
     .container{
         width:1200px;
         height: 800px;
+    }
+
+    .ambi_tooltip{
+        position: relative;
+        top:-120px;
+        left: 220px;
+        font-size:30px;
+    }
+    
+    .eco_tooltip{
+        position: relative;
+        top:-120px;
+        left: 150px;
+        font-size:30px;
+    }
+    
+    .soci_tooltip{
+        position: relative;
+        top:110px;
+        left:-290px;
+        font-size:30px;
+
     }
 
     .images{
