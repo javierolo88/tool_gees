@@ -1,0 +1,110 @@
+.ambi-container{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.ambi-container .modal{
+    width: 18%;
+    height: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+    left: 9%;
+    top:10%;
+    border: 2px dotted gray;
+}
+
+.ambi-container .modal_close{
+    transform: translateY(-200%);
+}
+
+
+.eco-container{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.eco-container .modal{
+    width: 18%;
+    height: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+    top:10%;
+    left: 32%;
+}
+
+.eco-container .modal_close_eco{
+    transform: translateY(-200%);
+}
+
+.soci-container{
+    opacity: 0;
+    visibility: hidden; 
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.soci-container .modal{
+    width: 18%;
+    height: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+    top: 22%;
+} 
+
+.soci-container .modal_close_soci{
+    transform: translateY(-200%);
+}
+
+.close{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    background:#c44a4a;
+    color:#fff;
+    line-height: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
