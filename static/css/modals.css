@@ -108,3 +108,19 @@
     border-radius: 50%;
     text-align: center;
 }
+
+
+@media screen and (min-width:1400px) {
+    .ambi-container .modal{
+        height: 54%;
+    }
+
+    .eco-container .modal{
+        height: 54%;
+    }
+
+    .soci-container .modal{
+        height: 60%;
+        top: 18%;
+    }
+}
