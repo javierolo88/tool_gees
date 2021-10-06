@@ -14,7 +14,7 @@
 
 .ambi-container .modal{
     width: 18%;
-    height: 50%;
+    height: 74%;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 
 .eco-container .modal{
     width: 18%;
-    height: 50%;
+    height: 74%;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -80,14 +80,14 @@
 
 .soci-container .modal{
     width: 18%;
-    height: 50%;
+    height: 84%;
     background: #fff;
     display: flex;
     flex-direction: column;
     position: relative;
     transition: transform 1s;
     transform: translateY(0%);
-    top: 22%;
+    top: 7%;
 } 
 
 .soci-container .modal_close_soci{

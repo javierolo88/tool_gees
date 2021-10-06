@@ -41,3 +41,82 @@
     font-size:14px;
 }
 
+/* label de ambiantal dentro del modal */
+
+.col_img .tama{
+    width: 260px;
+    height: 50px;
+    transition: transform 1s;
+    transform: translateY(0%);
+    z-index: 10000;
+}
+
+.hola{
+    position:relative;
+    right:185px;
+}
+
+.col_img .adios{
+    transform: translateY(-1000%);
+}
+
+/* label de social dentro del modal */
+
+.col_soci{
+    position:relative;
+    left:160px;
+}
+
+.col_soci .tama{
+    position:absolute;
+    left:10px;
+    top: -25px;
+    width: 260px;
+    height: 50px;
+    transition: transform 1s;
+    transform: translateY(0%);
+    z-index: 10000;
+}
+
+.col_soci .adios{
+    transform: translateY(-1000%);
+} 
+
+/* label de economico dentro del modal */
+
+.col_eco{
+    position:relative;
+    left:160px;
+}
+
+.col_eco .tama{
+    position:absolute;
+    right: 170px;
+    bottom: 25px;
+    width: 260px;
+    height: 50px;
+    transition: transform 1s;
+    transform: translateY(0%);
+    z-index: 10000;
+}
+
+.col_eco .adios{
+    transform: translateY(-1000%);
+}
+
+/* imagenes de modals  */
+.impla{
+    width: 100%;
+    height:60px;
+    margin-top: 6px;
+}
+
+.impla img{
+    position: relative;
+    top:52px;
+    width: 95%;
+    height:70px;
+    margin-left: 10px;
+}
+
+
