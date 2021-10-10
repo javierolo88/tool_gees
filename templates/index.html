@@ -15,8 +15,17 @@
             type="image/x-icon"
         />
     </head>
-    <body>
-        <img class="font" src="../static/img/IMAGENES.png" alt="">
+    <body class="hidden">
+        <div class="center" id="onload">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+        <img class="font" src="../static/img/IMAGENES.png" alt="" />
         <section class="main">
             <div class="container">
                 <div class="images img_ambi tooltips">
@@ -60,16 +69,24 @@
                     </div>
                     <!-- imagenes-->
                     <div class="impla">
-                        <img src="../static/img/impla.png" alt="" />
+                        <img
+                            class="cont"
+                            src="../static/img/impla.png"
+                            alt=""
+                        />
                     </div>
                     <div class="impla">
-                        <img src="../static/img/agua.png" alt="" />
+                        <img class="cont" src="../static/img/agua.png" alt="" />
                     </div>
                     <div class="impla">
-                        <img src="../static/img/energ.png" alt="" />
+                        <img
+                            class="cont"
+                            src="../static/img/energ.png"
+                            alt=""
+                        />
                     </div>
                     <div class="impla">
-                        <img src="../static/img/resi.png" alt="" />
+                        <img class="cont" src="../static/img/resi.png" alt="" />
                     </div>
                 </div>
                 <div class="col_img img_ambi">
@@ -95,21 +112,38 @@
                     <div class="row">
                         <div class="col">
                             <p>
-                                Promover un desarrolo economico local en el territorio.
+                                Promover un desarrolo economico local en el
+                                territorio.
                             </p>
                         </div>
                         <!-- imagenes-->
                         <div class="impla">
-                            <img src="../static/img/local.png" alt="" />
+                            <img
+                                class="cont"
+                                src="../static/img/local.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
-                            <img src="../static/img/mate.png" alt="" />
+                            <img
+                                class="cont"
+                                src="../static/img/mate.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
-                            <img src="../static/img/eco_dome.png" alt="" />
+                            <img
+                                class="cont"
+                                src="../static/img/eco_dome.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
-                            <img src="../static/img/espacio.png" alt="" />
+                            <img
+                                class="cont"
+                                src="../static/img/espacio.png"
+                                alt=""
+                            />
                         </div>
                     </div>
                 </div>
@@ -138,26 +172,51 @@
                     <div class="row">
                         <div class="col">
                             <p>
-                                Fomentar el bienestar del ser humano, garantizando una vida saludable.
+                                Fomentar el bienestar del ser humano,
+                                garantizando una vida saludable.
                             </p>
                         </div>
                         <!-- imagenes-->
                         <div class="impla">
-                            <img src="../static/img/ia.png" alt="" />
+                            <img
+                                class="cont"
+                                class="cont"
+                                src="../static/img/ia.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
                             <a href="./Social/confort_termico.html">
-                                <img class="cont" src="../static/img/ct.png" alt="" />
+                                <img
+                                    class="cont"
+                                    src="../static/img/ct.png"
+                                    alt=""
+                                />
                             </a>
                         </div>
                         <div class="impla">
-                            <img src="../static/img/ca.png" alt="" />
+                            <img
+                                class="cont"
+                                class="cont"
+                                src="../static/img/ca.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
-                            <img src="../static/img/cv.png" alt="" />
+                            <img
+                                class="cont"
+                                class="cont"
+                                src="../static/img/cv.png"
+                                alt=""
+                            />
                         </div>
                         <div class="impla">
-                            <img src="../static/img/cs.png" alt="" />
+                            <img
+                                class="cont"
+                                class="cont"
+                                src="../static/img/cs.png"
+                                alt=""
+                            />
                         </div>
                     </div>
                 </div>
@@ -174,5 +233,7 @@
         <script src="../static/js/eco.js"></script>
         <script src="../static/js/soci.js"></script>
         <script src="../static/js/bootstrap.bundle.min.js"></script>
+        <script src="../static/js/jquery-3.6.0.min.js"></script>
+        <script src="../static/js/cargador.js"></script>
     </body>
 </html>
