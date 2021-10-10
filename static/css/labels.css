@@ -46,6 +46,7 @@
 .col_img .tama{
     width: 260px;
     height: 50px;
+    bottom: 20px;
     transition: transform 1s;
     transform: translateY(0%);
     z-index: 10000;
@@ -119,6 +120,11 @@
     margin-left: 10px;
 }
 
+.cont:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
 @media screen and (min-width:1400px) {
     .row .col p{
         font-size:16px;
@@ -127,7 +133,7 @@
     .col_img .tama{
         width: 360px;
         height: 70px;
-        top:15px;
+        bottom: 40px;
         right: 300px;
     }
     
@@ -146,12 +152,12 @@
     }
 
     .impla{
-        margin-top: 6px;
-        height:60px;
+        margin-top: 2px;
+        height:70px;
     }
     
     .impla img{
-        top:63px;
+        top:70px;
         margin-left: 10px;
     }
 }
