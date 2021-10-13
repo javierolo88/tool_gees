@@ -1,0 +1,231 @@
+.main_tama{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height:100%;
+    box-shadow: 10px 5px 5px #c7c7c7;
+    border: 0.5px solid #c7c7c7;
+    padding: 10px;
+    margin-bottom:20px;
+}
+
+.eje{
+    margin-left: 24px;
+}
+
+.title_main{
+    width: 380px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.title_main img{
+    width: 100%;
+    height: 100%;
+}
+
+.objetivo{
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.box_main{
+    padding: 10px;
+}
+
+.box_main ul{
+    list-style-type: none;
+}
+
+.box_main ul li{
+    padding-left: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(../../img/confort_termico/check.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-left: 24px;
+    border: 2px gray dotted;
+}
+
+.box_main .presisas{
+    width: 98%;
+    height: 100%;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.text_obj{
+    margin-left: 24px;
+    margin-top: 10px;
+    border: 2px gray dotted;
+    padding: 10px;
+    font-size: 18px;
+    text-align:justify;
+    width: 96%;
+}
+
+.text{
+    width: 96%;
+    margin-left: 24px;
+    margin-top: 10px;
+    border: 2px gray dotted;
+    padding: 10px;
+    font-size: 18px;
+    text-align:justify;
+}
+
+.code{
+    height: 20px;
+    background: gray;
+    padding: 2px;
+}
+
+.orienta a{
+    text-decoration: none;
+    color:black;
+}
+
+.ficha{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.ficha span{
+    width:100px;
+    height: 20px;
+    background: #c7c7c7;
+    padding: 5px 8px 5px 8px;
+}
+
+.ficha_estra{
+    margin-left: 27px;
+    margin-top: 12px;
+}
+
+.ficha_estra span{
+    width:100px;
+    height:20px;
+    background: gray;
+    padding: 5px;
+}
+
+.mar{
+    margin-left: 5px;;
+}
+
+.inde{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 400px;
+    right: 138px;
+}
+
+.inde_1{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 568px;
+    right: 138px;
+}
+
+.inde_2{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 720px;
+    right: 138px;
+}
+
+.inde_3{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 865px;
+    right: 138px;
+}
+
+.inde_4{
+    position: absolute;
+    width: 80px;
+    height: 42px;
+    top: 1030px;
+    right: 138px;
+}
+
+
+@media screen and (min-width: 1400px) {
+    .main_tama{
+        width: 70%;
+    }
+
+    .eje{
+        font-size: 22px;
+    }
+
+    .title_main{
+        width: 280px;
+        height: 50px;
+    }
+
+    .objetivo{
+        font-size: 20px;
+    }
+
+    .text_obj{
+        font-size: 20px;
+        width: 97%;
+    }
+
+    .text{
+        width: 92%;
+        font-size: 20px;
+    }
+
+    .ficha_estra{
+        font-size: 20px;
+    }
+    
+    .ficha{
+        font-size: 20px;
+    }
+
+    .inde{
+        width: 95px;
+        height: 90px;
+        top: 480px;
+        right: 285px;
+    }
+    
+    .inde_1{
+        width: 95px;
+        height: 52px;
+        top: 650px;
+        right: 285px;
+    }
+    
+    .inde_2{
+        width: 95px;
+        height: 52px;
+        top: 775px;
+        right: 285px;
+    }
+    
+    .inde_3{
+        width: 95px;
+        height: 52px;
+        top: 965px;
+        right: 285px;
+    }
+    
+    .inde_4{
+        width: 95px;
+        height: 52px;
+        top: 1130px;
+        right: 285px;
+    }
+}

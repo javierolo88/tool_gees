@@ -8,8 +8,6 @@
     border: 0.5px solid #c7c7c7;
     padding: 10px;
     margin-bottom:20px;
-    /* position:absolute; */
-    /* z-index: 2000000; */
 }
 
 .eje{
@@ -132,4 +130,77 @@
     height: 42px;
     top: 1030px;
     right: 138px;
+}
+
+
+@media screen and (min-width: 1400px) {
+    .main_tama{
+        width: 70%;
+    }
+
+    .eje{
+        font-size: 22px;
+    }
+
+    .title_main{
+        width: 280px;
+        height: 50px;
+    }
+
+    .objetivo{
+        font-size: 20px;
+    }
+
+    .text_obj{
+        font-size: 20px;
+        width: 97%;
+    }
+
+    .text{
+        width: 92%;
+        font-size: 20px;
+    }
+
+    .ficha_estra{
+        font-size: 20px;
+    }
+    
+    .ficha{
+        font-size: 20px;
+    }
+
+    .inde{
+        width: 95px;
+        height: 90px;
+        top: 480px;
+        right: 285px;
+    }
+    
+    .inde_1{
+        width: 95px;
+        height: 52px;
+        top: 650px;
+        right: 285px;
+    }
+    
+    .inde_2{
+        width: 95px;
+        height: 52px;
+        top: 775px;
+        right: 285px;
+    }
+    
+    .inde_3{
+        width: 95px;
+        height: 52px;
+        top: 965px;
+        right: 285px;
+    }
+    
+    .inde_4{
+        width: 95px;
+        height: 52px;
+        top: 1130px;
+        right: 285px;
+    }
 }

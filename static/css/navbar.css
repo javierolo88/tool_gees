@@ -3,8 +3,6 @@
     height: 80px;
     background:#424949;
     margin-bottom:15px;
-    /* position:absolute; */
-    /* z-index: 200000; */
 }
 
 .container_nav{
@@ -33,6 +31,25 @@
     height: 100%;
 }
 
+.name{
+    top:10px;
+}
+
+.name a{
+    text-decoration:none;
+}
+
+.name a h2:hover{
+    color:#424949;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.name a h2:active{
+    color:#000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
 .name h1, h2{
     color: black;
 }
@@ -47,5 +64,39 @@
     height: 100%;
 }
 
+@media screen and (min-width: 1400px) {
+    .navbar{
+        height: 120px;
+    }
+    
+    .container_nav{
+        height:120px;
+    }
+    
+    .logo{
+        height: 120px;
+        width: 70%;
+    }
+
+    .logos_name{
+        width: 160px;
+    }
+
+    .codigo{
+        width: 240px;
+    }
+
+    .name{
+        top:25px;
+    }
+
+    .name h2{
+        font-size:px;
+    }
+
+    .name h1{
+        font-size:40px;
+    }
+}
 
 
