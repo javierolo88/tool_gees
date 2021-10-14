@@ -65,6 +65,18 @@
     color:black;
 }
 
+.orienta a:hover{
+    color: green;
+    text-decoration: line;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.orienta a:active{
+    color: black;
+    text-decoration: line;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .ficha{
     margin-left: 24px;
     margin-top: 10px;
