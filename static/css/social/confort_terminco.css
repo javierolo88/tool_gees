@@ -462,38 +462,57 @@ body{
         font-size: 20px;
     }
 
-    .inde {
-        width: 95px;
-        height: 90px;
-        top: 480px;
-        right: 285px;
+    .subContainer {
+        position: relative;
+        top: 60px;
+        height: 65%;
+        width: 100%;
+    }
+    
+    .subContainer2 {
+        position: relative;
+        bottom: 10px;
+        height: 65%;
+        width: 100%;
     }
 
     .inde_1 {
-        width: 95px;
-        height: 52px;
-        top: 650px;
-        right: 285px;
+        position: relative;
+        width: 100px;
+        height: 60px;
+        top: 50px;
+        left: 1380px;
     }
 
     .inde_2 {
-        width: 95px;
-        height: 52px;
-        top: 775px;
-        right: 285px;
+        position: relative;
+        width: 100px;
+        height: 60px;
+        top: 50px;
+        left: 1380px;
     }
 
     .inde_3 {
-        width: 95px;
-        height: 52px;
-        top: 965px;
-        right: 285px;
+        position: relative;
+        width: 100px;
+        height: 60px;
+        top: 50px;
+        left: 1380px;
     }
 
     .inde_4 {
-        width: 95px;
-        height: 52px;
-        top: 1130px;
-        right: 285px;
+        position: relative;
+        width: 100px;
+        height: 90px;
+        top: 80px;
+        left: 1380px;
+    }
+
+    .inde_5 {
+        position: relative;
+        width: 100px;
+        height: 60px;
+        top: 50px;
+        left: 1380px;
     }
 }
