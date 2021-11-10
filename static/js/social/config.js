@@ -117,3 +117,33 @@ window.addEventListener("click", (e) => {
         }, 850);
     }
 });
+
+let cerrar_5 = document.querySelectorAll(".close_5")[0];
+let abrir_5 = document.querySelectorAll(".cta_5")[0];
+let modal_5 = document.querySelectorAll(".modal_5")[0];
+let modalc_5 = document.querySelectorAll(".modal_container_5")[0];
+
+abrir_5.addEventListener("click", (e) => {
+    e.preventDefault();
+    modalc_5.style.opacity = "1";
+    modalc_5.style.visibility = "visible";
+    modal_5.classList.toggle("modal_close_5");
+});
+
+cerrar_5.addEventListener("click", () => {
+    modal_5.classList.toggle("modal_close_5");
+    setTimeout(() => {
+        modalc_5.style.opacity = "0";
+        modalc_5.style.visibility = "hidden";
+    }, 850);
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target == modalc_5) {
+        modal_5.classList.toggle("modal_close_5");
+        setTimeout(() => {
+            modalc_5.style.opacity = "0";
+            modalc_5.style.visibility = "hidden";
+        }, 850);
+    }
+});
